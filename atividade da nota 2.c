@@ -4,23 +4,29 @@
 int main (){
 	setlocale(LC_ALL, "");
 	
-	//Declarando vari√°veis 
+	//Declarando vari·veis 
 	int nota, soma,  i;
 	float media;
 	
-	// Solicitando dados para o usu√°rio.
-	for (i = i; i <= 4; i++){
+	// Solicitando dados para o usu·rio.
+	for (i = i; i <= 3; i++){
 	
-		printf("Digite a %i¬™ nota: ", i);
+		printf("Digite a %i™ nota: ", i);
 		scanf("%i", &nota);	
 	
 	// Soma = soma + nota 
 	soma += nota;
 }
-	media = soma / 4;
+	media = soma / 3;
 	
 	// Exibindo resultados
-	printf("\nM√©dia: %.1f \n", media);
+	if (media >= 7){
+	printf("\nMÈdia: %.1f \n", media);
+	printf("\nAprovado");
+	}else{
+	printf("\nMÈdia: %.1f \n", media);
+	printf("\nReprovado");
+	}
 	
 	return 0;
 
