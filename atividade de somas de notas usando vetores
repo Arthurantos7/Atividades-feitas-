@@ -25,14 +25,14 @@ int main (){
 	
 	// efetuando calculo 
 	media = soma / contador;
-	printf("\nMédia: %.1i", media);
+	printf("\nMÃ©dia: %.1i", media);
 	if(media >= 7){
 		printf("\nAprovado");
 		
 	}
 	
 	if(media >= 5 && media < 7){
-		printf("\nRecuperação");
+		printf("\nRecuperaÃ§Ã£o");
 	
 	}
 	if(media < 5 ){
