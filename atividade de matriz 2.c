@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <locale.h> 
 
-#define DISCIPLINA 4
+#define DISCIPLINA 3
 #define NOTAS 2
 
 int main (){
@@ -11,7 +11,7 @@ int main (){
 	
 	char disciplina[DISCIPLINA][200]; //vetor para dois nomes
 	float notas[DISCIPLINA][NOTAS]; //matriz com 3 notas para dois alunos
-	float soma = 0, media[4];
+	float soma = 0, media[3];
 	int i, j;
 	
 	for(i = 0; i < DISCIPLINA; i++){
